@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    background-image: url(../img/misviajes4.png);
+    background-size: cover;
+    height: 350px;
+}
+
+main {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.fondo{
+    width: 100%;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    padding: 0 150px 0 150px;
+}
+
+.logo{
+    display: flex;
+    font-family: chewy;
+    color: white;
+    align-items: center;
+    font-size: 1.8em;
+    justify-content: space-around;
+}
+
+.logo img{
+    height: 65px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes img{
+    height: 40px;
+}
+
+.buscador img{
+    height: 40px;
+    padding: 10px;
+}
+
+
+.viajes-container{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: repeat(9fr);
+    max-width: 100%;
+    min-height: 700px;
+    margin: 30px;
+}
+
+.viaje{
+    position: relative;
+}
+
+.viaje p{
+    display: flex;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font: 2rem;
+    height: 50px;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    align-items: center;
+}
+
+#viaje1{
+    background-image: url(../img/santamarta.jpeg);
+    background-size: cover;
+    background-position: center center;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+#viaje2{
+    background-image: url(../img/antioquia.jpg);
+    background-size: cover;
+    background-position: center center;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+#viaje3{
+    background-image: url(../img/Amazonas.jpg);
+    background-size: cover;
+    background-position: center center;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+#viaje4{
+    background-image: url(../img/Santander.jpg);
+    background-size: cover;
+    background-position: center center;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+#viaje5{
+    background-image: url(../img/arauca2.jpg);
+    background-size: cover;
+    background-position: center center;
+    grid-column-start: 2;
+    grid-column-end: end;
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+
+.blog-container{
+    width: 100%;
+    height: 700px;
+    overflow: auto;
+    display: flex;
+}
+
+.derecho{
+    float: right;
+    width: 20%;
+}
+
+.blog{
+    width: 80%;
+}
+
+.articulo{
+    height: 200px;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+}
+
+hr{
+    color: greenyellow;
+    width: 98%;
+    text-align: center;
+    position: relative;
+}
+
+.foto-articulo{
+    float: left;
+    height: 100%;
+    width: 180px;
+    position: relative;
+}
+
+.articulo-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10px;
+}
+
+.articulo-container h3{
+    color: rgb(91, 91, 240);
+    font-size: 1.5em;
+}
+
+.pie-articulo{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen-comentario{
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    height: 200px;
+    background-color: black;
+}
+
+.email{
+    float: right;
+    color: white;
+    padding: 80px;
+}
